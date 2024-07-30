@@ -1,0 +1,53 @@
+# Virtual environment
+venv/
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm specific files
+.idea/
+
+# VS Code specific files
+.vscode/
+
+# Test and coverage reports
+*.coverage
+*.cover
+.coverage.*
+nosetests.xml
+coverage.xml
+*.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Database files
+*.sqlite3
+
+# Local environment variables
+.env
+
+# IDE specific settings
+*.suo
+*.ntvs_analysis.dat
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker files
+docker-compose.override.yml
+docker-compose.local.yml
